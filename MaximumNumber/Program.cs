@@ -12,6 +12,8 @@ namespace MaximumNumber
             Console.WriteLine(MaxNumber);
             Double MaxDouble = TestCase.MaximumDouble(11, 23, 43);
             Console.WriteLine(MaxDouble);
+            string MaxString = TestCase.MaximumString("21","55","11");
+            Console.WriteLine(MaxString);
         }
     }
 }
