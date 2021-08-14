@@ -10,6 +10,8 @@ namespace MaximumNumber
             Console.WriteLine("maximum number:");
             int MaxNumber = TestCase.MaximumInteger(66, 22, 33);
             Console.WriteLine(MaxNumber);
+            Double MaxDouble = TestCase.MaximumDouble(11, 23, 43);
+            Console.WriteLine(MaxDouble);
         }
     }
 }
